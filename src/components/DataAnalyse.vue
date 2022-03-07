@@ -22,71 +22,66 @@
   </div>
   <div class="fontStyle">
   <div class="text item" style="margin-top:30px;">
-   <el-link :underline="false">柱状图</el-link>
+   <el-link :underline="false" @click="judgeChage(1)" >柱状图</el-link>
   </div>
    <div class="text item">
-    <el-link :underline="false">饼状图</el-link>
+    <el-link :underline="false"  @click="judgeChage(2)">饼状图</el-link>
   </div>
    <div class="text item">
-    <el-link :underline="false">折线图</el-link>
+    <el-link :underline="false" @click="judgeChage(3)">折线图</el-link>
   </div>
   </div>
       </el-col>
        <el-col :span="16">
-         <div id="Mimelist"></div>
+         <div id="Mimelist1" ref="myChart1" v-show="judge1"></div>
+         <div id="Mimelist2" ref="myChart2" v-show="judge2"></div>
+         <div id="Mimelist3" ref="myChart3" v-show="judge3"></div>
        </el-col>
   </el-row>
 </el-card>
       </div>
 </template>
 <script>
+import option2 from '../data/Pie chart'
+import option1 from '../data/Histogram'
+import option3 from '../data/lineChart'
 export default {
   name: 'DataAnalyse',
   data () {
     return {
-      option: {
-        legend: {
-          top: 'bottom'
-        },
-        toolbox: {
-          show: false,
-          feature: {
-            mark: { show: true },
-            dataView: { show: true, readOnly: false },
-            restore: { show: true },
-            saveAsImage: { show: true }
-          }
-        },
-        series: [
-          {
-            name: 'Nightingale Chart',
-            type: 'pie',
-            radius: [50, 250],
-            center: ['50%', '50%'],
-            roseType: 'area',
-            itemStyle: {
-              borderRadius: 8
-            },
-            data: [
-              { value: 40, name: 'rose 1' },
-              { value: 38, name: 'rose 2' },
-              { value: 32, name: 'rose 3' },
-              { value: 30, name: 'rose 4' },
-              { value: 28, name: 'rose 5' },
-              { value: 26, name: 'rose 6' },
-              { value: 22, name: 'rose 7' },
-              { value: 18, name: 'rose 8' }
-            ]
-          }
-        ]
-      }
+      option2: option2,
+      option1: option1,
+      option3: option3,
+      judge1: true,
+      judge2: false,
+      judge3: false
     }
   },
   mounted () {
-    let myChart = this.$echarts.init(document.getElementById('Mimelist'))
-    myChart.setOption(this.option)
+    let myChart1 = this.$echarts.init(this.$refs.myChart1)
+    let myChart2 = this.$echarts.init(this.$refs.myChart2)
+    let myChart3 = this.$echarts.init(this.$refs.myChart3)
+    myChart1.setOption(this.option1)
+    myChart2.setOption(this.option2)
+    myChart3.setOption(this.option3)
     window.onresize = () => {
-      myChart.resize()
+    }
+  },
+  methods: {
+    judgeChage (val) {
+      if (val === 1) {
+        this.judge1 = true
+        this.judge2 = false
+        this.judge3 = false
+      } else if (val === 2) {
+        this.judge1 = false
+        this.judge2 = true
+        this.judge3 = false
+      } else {
+        this.judge1 = false
+        this.judge2 = false
+        this.judge3 = true
+      }
     }
   }
 }
@@ -114,14 +109,22 @@ export default {
     margin-top:20px;
   }
   .fontStyle{
-    margin-left:30px;
+    margin-left:40px;
      color: #303133;
   }
   .el-divider__text, .el-link {
      font-weight: 600;
 }
-#Mimelist {
-  width: 100%;
-  height:200px;
+#Mimelist1 {
+  width: 353px;
+  height:300px;
+}
+#Mimelist2 {
+  width: 353px;
+  height:300px;
+}
+#Mimelist3 {
+  width: 353px;
+  height:300px;
 }
 </style>

@@ -1,12 +1,14 @@
 <template>
 <div id="side-bar">
+  <div class="sideHead">
+  </div>
       <el-row class="tac" >
     <el-menu
       default-active="2"
       class="el-menu-vertical-demo"
       @open="handleOpen"
       @close="handleClose"
-      background-color="#545c64"
+      background-color="#012143"
       text-color="#fff"
       active-text-color="#ffd04b"
       :style="'height:'+autoHeight.height">
@@ -77,5 +79,9 @@ export default {
 }
 </script>
 <style scoped>
-
+.sideHead{
+  height:60px;
+   background-image: url('../assets/sideHead.png');
+   background-size: 100% 100%;
+}
 </style>

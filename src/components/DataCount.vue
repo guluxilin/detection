@@ -46,6 +46,7 @@ export default{
     margin-top:20px;
     background-image: url('../assets/backgroundPlus.png');
     background-size: 100% 100%;
+    height:300px;
   }
   i{
     margin-right:10px;
