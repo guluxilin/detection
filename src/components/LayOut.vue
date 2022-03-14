@@ -13,11 +13,11 @@
     <store-card></store-card>
     <tag-card></tag-card>
      <el-row :gutter="20">
-    <el-col :span="9">
+    <el-col :span="12">
      <data-count></data-count>
     </el-col>
-    <el-col :span="15">
-     <data-analyse></data-analyse>
+    <el-col :span="12">
+      <sort-item></sort-item>
     </el-col>
      </el-row>
     </el-main>
@@ -35,6 +35,11 @@ import DataCount from './DataCount.vue'
 import NavMenu from './NavMenu.vue'
 import StoreCard from './StoreCard.vue'
 import TagCard from './TagCard.vue'
+import SortItem from './SortItem.vue'
+import sortJune from '../data/sortJune'
+import sortJuly from '../data/sortJuly'
+import sortAugust from '../data/sortAugust'
+import sortSeptember from '../data/sortSeptember'
 export default {
   name: 'LayOut',
   components: {
@@ -44,12 +49,20 @@ export default {
     DataCount,
     NavMenu,
     StoreCard,
-    TagCard
+    TagCard,
+    SortItem
   },
   data () {
     return {
-
+      sortJune: sortJune,
+      sortJuly: sortJuly,
+      sortAugust: sortAugust,
+      sortSeptember: sortSeptember
     }
+  },
+  mounted () {
+  },
+  methods: {
   }
 }
 </script>

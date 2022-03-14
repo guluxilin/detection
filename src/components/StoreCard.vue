@@ -5,7 +5,7 @@
     <el-row :gutter="20">
       <el-col :span="5">
     <i class="el-icon-s-shop"></i>
-    <span>商铺</span>
+    <span>商品信息</span>
       </el-col>
       <el-col :span="17" >
         <div style="float:right">
@@ -24,26 +24,47 @@
     </el-row>
   </div>
   <el-table
-    :data="tableData"
+    :data="sortJune.detail.slice((currentPage-1)*currentSize,currentPage*currentSize)"
     style="width: 100%"
-    :default-sort = "{prop: 'date', order: 'descending'}"
+    height="300"
+    :default-sort = "{prop: 'information.itemCate', order: 'descending'}"
+    :cell-style="{'text-align':'center'}"
+    :header-cell-style="{'text-align':'center'}"
     >
     <el-table-column
-      prop="date"
-      label="名称"
+      prop="store_name"
+      label="店铺"
       sortable
-      width="180">
+      width="180"
+      :show-overflow-tooltip="true">
     </el-table-column>
     <el-table-column
-      prop="name"
-      label="类别"
+      prop="information.itemName"
+      label="商品名称"
       sortable
-      width="180">
+      width="180"
+      :show-overflow-tooltip="true">
+    </el-table-column>
+     <el-table-column
+      prop="information.itemCate"
+      label="商品类别"
+      sortable
+      width="180"
+      :show-overflow-tooltip="true">
     </el-table-column>
     <el-table-column
-      prop="address"
+      prop="information.itemPrice"
       label="价格"
-      sortable>
+      sortable
+      width="180"
+      :show-overflow-tooltip="true">
+    </el-table-column>
+    <el-table-column
+      prop="information.itemSaleAmount"
+      label="销量"
+      sortable
+      width="180"
+      :show-overflow-tooltip="true">
     </el-table-column>
   </el-table>
     <el-pagination
@@ -53,43 +74,44 @@
       :page-sizes="[10, 20, 30, 40]"
       :page-size="20"
       layout="total, sizes, prev, pager, next, jumper"
-      :total="400"
+      :total="Object.keys(sortJune.detail).length"
       style="padding:10px 5px">
     </el-pagination>
 </el-card>
     </div>
 </template>
 <script>
+import sortJune from '../data/sortJune'
+import sortJuly from '../data/sortJuly'
+import sortAugust from '../data/sortAugust'
+import sortSeptember from '../data/sortSeptember'
 export default {
   data () {
     return {
-      tableData: [{
-        date: '2016-05-02',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1518 弄'
-      }, {
-        date: '2016-05-04',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1517 弄'
-      }, {
-        date: '2016-05-01',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1519 弄'
-      }, {
-        date: '2016-05-03',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1516 弄'
-      }],
-      currentPage: 1
+      sortJune: sortJune,
+      sortJuly: sortJuly,
+      sortAugust: sortAugust,
+      sortSeptember: sortSeptember,
+      sortSumDetail: [],
+      currentPage: 1,
+      currentSize: 20
     }
   },
   methods: {
     handleSizeChange (val) {
       console.log(`每页 ${val} 条`)
+      this.currentSize = val
     },
     handleCurrentChange (val) {
       console.log(`当前页: ${val}`)
+      this.currentPage = val
     }
+  },
+  created () {
+    this.sortSumDetail = this.sortSumDetail.concat(sortJune.detail)
+    this.sortSumDetail = this.sortSumDetail.concat(sortJuly.detail)
+    this.sortSumDetail = this.sortSumDetail.concat(sortAugust.detail)
+    this.sortSumDetail = this.sortSumDetail.concat(sortSeptember.detail)
   }
 }
 </script>
@@ -119,7 +141,7 @@ export default {
     padding: 0px 20px;
 }
 div /deep/ .el-pagination__sizes {
-    margin: 0 30% 0 0;
+    margin: 0 25% 0 0;
     font-weight: 400;
     color: #606266;
 }
