@@ -15,7 +15,6 @@ let option2 = {
       type: 'pie',
       radius: '40%',
       center: ['50%', '50%']
-      // No encode specified, by default, it is '2012'.
     }
   ]
 }

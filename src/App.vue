@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <lay-out></lay-out>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import LayOut from './components/LayOut.vue'
+import LayOut from './components/Sort/LayOut.vue'
 export default {
   name: 'App',
   components: {
