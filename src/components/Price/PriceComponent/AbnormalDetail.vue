@@ -5,16 +5,16 @@
         <kmeans></kmeans>
             </el-col>
             <el-col :span="12">
-        <result-table></result-table>
+        <result-table @watchDetail="watchDetail" :round="round"></result-table>
             </el-col>
         </el-row>
-       <price-interval></price-interval>
+       <price-interval :item-detail="itemDetail"></price-interval>
        <el-row :gutter="20">
            <el-col :span="12">
-               <abnormal-data-count></abnormal-data-count>
+               <abnormal-data-count :round="round"></abnormal-data-count>
            </el-col>
            <el-col :span="12">
-               <abonormal-data-analyse></abonormal-data-analyse>
+               <abonormal-data-analyse :round="round"></abonormal-data-analyse>
            </el-col>
        </el-row>
     </div>
@@ -27,8 +27,27 @@ import AbnormalDataCount from './AbnormalDataCount.vue'
 import AbonormalDataAnalyse from './AbnormalDataAnalyse.vue'
 export default {
   components: {Kmeans, ResultTable, PriceInterval, AbnormalDataCount, AbonormalDataAnalyse},
+  props: {
+    round: {
+      type: Number,
+      default: 0
+    }
+  },
   data () {
     return {
+      itemDetail: Object
+    }
+  },
+  methods: {
+    watchDetail (row) {
+      this.itemDetail = row
+      console.log(this.itemDetail)
+      console.log(this.itemDetail.allPrices)
+    }
+  },
+  watch: {
+    round (val) {
+      console.log('abnormaldetail' + val)
     }
   }
 }

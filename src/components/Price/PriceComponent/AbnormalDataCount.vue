@@ -9,30 +9,61 @@
     <el-row :gutter="20">
       <el-col :span="8">
         <div style="margin-top: 20px">
-    <el-radio-group v-model="radio" size="small">
-      <el-radio label="1" border>店铺</el-radio>
-      <el-radio label="2" border>类别</el-radio>
+    <el-radio-group v-model="radio" size="small" @change="sortChange">
+      <el-radio label="1" value=1 border>类别</el-radio>
+      <el-radio label="2" value=2 border>店铺</el-radio>
     </el-radio-group>
   </div>
       </el-col>
       <el-col :span="16">
         <el-table
-    :data="tableData"
-     :default-sort = "{prop: 'name'}"
+    :data="abnormalPrice.abnormalSortDetail"
+     :default-sort = "{prop: 'rate',order:'descending'}"
     border
     style="width: 100%"
-    height:="200">
+    height="200"
+     v-show="sortShow===true"
+     ref='table1'>
     <el-table-column
       fixed
-      prop="date"
-      label="店铺名称"
-      width="135">
+      prop="sortname"
+      label="类别名称"
+      width="135"
+      :show-overflow-tooltip="true">
     </el-table-column>
     <el-table-column
-      prop="name"
+      prop="rate"
       label="异常比例"
-      sortable
+      :sortable="true"
       >
+      <template slot-scope="scope">
+                <span>{{ String(scope.row.rate*100).substring(0,4) }}%</span>
+              </template>
+    </el-table-column>
+  </el-table>
+          <el-table
+    :data="abnormalPrice.abnormalStoreDetail.slice((this.round-1)*50,this.round*50)"
+     :default-sort = "{prop: 'rate',order:'descending'}"
+    border
+    style="width: 100%"
+    height="200"
+     v-show="sortShow===false"
+     ref='table2'>
+    <el-table-column
+      fixed
+      prop="storename"
+      label="店铺名称"
+      width="135"
+      :show-overflow-tooltip="true">
+    </el-table-column>
+    <el-table-column
+      prop="rate"
+      label="异常数量"
+      :sortable="true"
+      >
+      <template slot-scope="scope">
+                <span>{{ String(scope.row.rate*100).substring(0,4) }}%</span>
+              </template>
     </el-table-column>
   </el-table>
       </el-col>
@@ -46,28 +77,55 @@
       :page-size="100"
       :pager-count="5"
       layout="prev, pager, next, jumper"
-      :total="1000">
+      :total="1000"
+     >
     </el-pagination>
   </div>
 </el-card>
     </div>
 </template>
 <script>
+import abnormalPrice from '../../../data/abnormalPrice'
 export default {
+  props: {
+    round: {
+      type: Number,
+      default: 0
+    }
+  },
   data () {
     return {
       radio: '1',
-      currentPage: 1
+      currentPage: 1,
+      abnormalPrice: abnormalPrice,
+      sortShow: true
     }
   },
+  mounted () {
+    this.initAbnormalPrice()
+  },
   methods: {
+    sortChange (val) {
+      if (val === '1') {
+        this.sortShow = true
+        this.$nextTick(() => {
+          this.$refs.table1.doLayout()
+        })
+      } else if (val === '2') {
+        this.sortShow = false
+        this.$nextTick(() => {
+          this.$refs.table2.doLayout()
+        })
+      }
+    },
     handleSizeChange (val) {
       console.log(`每页 ${val} 条`)
     },
     handleCurrentChange (val) {
       console.log(`当前页: ${val}`)
-    }
-  }
+    },
+    initAbnormalPrice () {
+    }}
 }
 </script>
 <style scoped>
@@ -101,4 +159,8 @@ export default {
      margin-left: 0px;
      margin-top: 10px
 }
+.el-table th.gutter{
+     display: table-cell !important;
+ }
+
 </style>

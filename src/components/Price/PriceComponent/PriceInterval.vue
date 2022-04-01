@@ -28,6 +28,11 @@
 import priceDetail from '../../../data/priceDetail'
 import priceInterval from '../../../data/priceInterval'
 export default {
+  props: {
+    itemDetail: {
+    }
+
+  },
   data () {
     return {
       priceDetail: priceDetail,
@@ -40,6 +45,24 @@ export default {
     myChart1.setOption(this.priceDetail)
     myChart3.setOption(this.priceInterval)
     window.onresize = () => {
+    }
+  },
+  watch: {
+    itemDetail (val) {
+      console.log('new')
+      console.log(val.allPrices)
+      for (let i = 0; i < 4; i++) {
+        this.priceDetail.series[0].data[i] = parseInt(val.allPrices[i])
+      }
+      for (let i = 0; i < 2; i++) {
+        this.priceInterval.series[0].data[i] = parseInt(val.normalPrice[0].range[i])
+      }
+      let myChart1 = this.$echarts.init(this.$refs.myChart1)
+      let myChart3 = this.$echarts.init(this.$refs.myChart3)
+      myChart1.setOption(this.priceDetail)
+      myChart3.setOption(this.priceInterval)
+      window.onresize = () => {
+      }
     }
   }
 }

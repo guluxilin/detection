@@ -12,13 +12,20 @@
 </template>
 <script>
 import kmeans from '../../../data/kmeans'
+import abnormalPrice from '../../../data/abnormalPrice'
 export default {
   data () {
     return {
-      kmeans: kmeans
+      kmeans: kmeans,
+      abnormalPrice: abnormalPrice
     }
   },
   mounted () {
+    for (let i = 0; i < 4; i++) {
+      for (let j = 0; j < 6; j++) {
+        this.kmeans.series[i].data[j] = this.abnormalPrice.k_Img[i].kdetail[j].SSE
+      }
+    }
     let myChart4 = this.$echarts.init(this.$refs.myChart4)
     myChart4.setOption(this.kmeans)
     window.onresize = () => {

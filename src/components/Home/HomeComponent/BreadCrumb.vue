@@ -3,8 +3,8 @@
       <el-row :gutter="20">
     <el-col :span="17">
       <el-steps  :active="0" simple style="background-color: rgb(238, 241, 246);padding:10px 4%" space="25%" >
-      <el-step title="检测聚类情况" ></el-step>
-      <el-step title="检测价格区间" ></el-step>
+      <el-step title="主成分分析" ></el-step>
+      <el-step title="孤立森林" ></el-step>
       <el-step title="检测异常比例" ></el-step>
       </el-steps>
     </el-col>

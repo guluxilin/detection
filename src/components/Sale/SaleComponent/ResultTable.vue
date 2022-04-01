@@ -7,8 +7,8 @@
   </div>
   <div class="text item">
     <el-table
-    :data="abnormalPrice.abnormalItemDetail.slice((this.round-1)*50,this.round*50)"
-    height="200"
+    :data="abnormalPrice.abnormalItemDetail.slice((this.round-1)*50,this.round*50).slice((currentPage-1)*currentSize,currentPage*currentSize)"
+    height="150"
     :default-sort = "{prop: 'storeName'}"
     border
     style="width: 100%">
@@ -49,7 +49,7 @@
       :page-sizes="[10, 20, 30, 40]"
       :page-size="20"
       layout="total, sizes, prev, pager, next, jumper"
-      :total="100"
+      :total="50"
       style="padding:10px 5px">
     </el-pagination>
 </el-card>
@@ -61,7 +61,7 @@ export default {
   props: {
     round: {
       type: Number,
-      default: 0
+      default: 1
     }
   },
   data () {

@@ -4,7 +4,7 @@
   </div>
       <el-row class="tac" >
     <el-menu
-      default-active="2"
+      default-active="3"
       class="el-menu-vertical-demo"
       @open="handleOpen"
       @close="handleClose"
@@ -12,22 +12,30 @@
       text-color="#fff"
       active-text-color="#ffd04b"
       :style="'height:'+autoHeight.height">
- <router-link to="/sort">
+      <router-link to="/home">
       <el-menu-item index="1">
+        <i class="el-icon-menu"></i>
+        <span slot="title">管理首页</span>
+      </el-menu-item>
+       </router-link>
+ <router-link to="/sort">
+      <el-menu-item index="2">
         <i class="el-icon-menu"></i>
         <span slot="title">商品分类</span>
       </el-menu-item>
        </router-link>
        <router-link to="/price">
-      <el-menu-item index="2">
+      <el-menu-item index="3">
         <i class="el-icon-menu"></i>
         <span slot="title">价格异常检测</span>
       </el-menu-item>
        </router-link>
-      <el-menu-item index="3" >
+         <router-link to="/sale">
+      <el-menu-item index="4" >
         <i class="el-icon-document"></i>
         <span slot="title">销量异常检测</span>
       </el-menu-item>
+        </router-link>
     </el-menu>
 </el-row>
 </div>
