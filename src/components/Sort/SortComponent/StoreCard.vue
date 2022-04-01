@@ -24,7 +24,7 @@
     </el-row>
   </div>
   <el-table
-    :data="sortJune.detail.slice((currentPage-1)*currentSize,currentPage*currentSize)"
+    :data="sortJune.detail.slice(0,50).slice((currentPage-1)*currentSize,currentPage*currentSize)"
     style="width: 100%"
     height="300"
     :default-sort = "{prop: 'information.itemCate', order: 'descending'}"
@@ -77,7 +77,7 @@
       :page-sizes="[10, 20, 30, 40]"
       :page-size="20"
       layout="total, sizes, prev, pager, next, jumper"
-      :total="Object.keys(sortJune.detail).length"
+      :total="50"
       style="padding:10px 5px">
     </el-pagination>
 </el-card>

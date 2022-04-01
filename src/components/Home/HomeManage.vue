@@ -9,7 +9,8 @@
     <nav-menu></nav-menu>
      </el-header>
      <el-main  style="background-color: rgb(238, 241, 246)">
-    <bread-crumb @continueClick="continueClick"></bread-crumb>
+       <data-sum></data-sum>
+       <result-table></result-table>
     </el-main>
       </el-container>
       </el-container>
@@ -19,8 +20,10 @@
 import SideBar from './HomeComponent/SideBar.vue'
 import NavMenu from './HomeComponent/NavMenu.vue'
 import BreadCrumb from './HomeComponent/BreadCrumb.vue'
+import DataSum from './HomeComponent/DataSum.vue'
+import ResultTable from './HomeComponent/ResultTable.vue'
 export default {
-  components: {SideBar, NavMenu, BreadCrumb},
+  components: {SideBar, NavMenu, BreadCrumb, DataSum, ResultTable},
   data () {
     return {
 

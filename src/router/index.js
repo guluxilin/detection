@@ -4,6 +4,7 @@ import LayOut from '@/components/Sort/LayOut'
 import AbnormalPrice from '@/components/Price/AbnormalPrice'
 import AbnormalSale from '@/components/Sale/AbnormalSale'
 import HomeManage from '@/components/Home/HomeManage'
+import Login from '@/components/login/Login'
 
 Vue.use(Router)
 
@@ -11,7 +12,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/sort'
+      name: 'login',
+      redirect: '/sort',
+      component: Login
     },
     {
       path: '/home',
