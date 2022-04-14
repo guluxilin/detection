@@ -5,7 +5,8 @@ import AbnormalPrice from '@/components/Price/AbnormalPrice'
 import AbnormalSale from '@/components/Sale/AbnormalSale'
 import HomeManage from '@/components/Home/HomeManage'
 import Login from '@/components/login/Login'
-
+import preHandle from '@/components/preHandle/preHandle'
+import index from '@/components/index'
 Vue.use(Router)
 
 export default new Router({
@@ -13,8 +14,13 @@ export default new Router({
     {
       path: '/',
       name: 'login',
-      redirect: '/sort',
+      redirect: '/index',
       component: Login
+    },
+    {
+      path: '/index',
+      name: 'index',
+      component: index
     },
     {
       path: '/home',
@@ -35,6 +41,11 @@ export default new Router({
       path: '/sale',
       name: 'sale',
       component: AbnormalSale
+    },
+    {
+      path: '/pre',
+      name: 'pre',
+      component: preHandle
     }
   ]
 })

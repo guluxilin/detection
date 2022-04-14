@@ -13,6 +13,7 @@
   </div>
      </el-col>
     <el-col :span="14">
+          <dv-water-level-pond :config="config" style="width:150px;height:200px" />
     </el-col>
     </el-row>
 </el-card>
@@ -71,10 +72,11 @@
 </div>
 </template>
 <script>
+import config from '../../../data/config'
 export default {
   data () {
     return {
-
+      config: config
     }
   }
 }

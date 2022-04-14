@@ -1,5 +1,6 @@
 <template>
     <div>
+      <dv-full-screen-container>
         <el-container style="width:80%; border: 1px solid #eee;margin:auto">
   <el-aside width="220px">
     <side-bar></side-bar>
@@ -14,6 +15,7 @@
     </el-main>
       </el-container>
       </el-container>
+      </dv-full-screen-container>
     </div>
 </template>
 <script>
