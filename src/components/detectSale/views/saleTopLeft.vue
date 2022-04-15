@@ -41,9 +41,9 @@
 import sale from '@/mainData/sale'
 export default {
   mounted () {
-    this.config1.number.splice(0, 1, parseInt(sale.sumStore))
-    this.config2.number.splice(0, 1, parseInt(sale.sumSort))
-    this.config3.number.splice(0, 1, parseInt(sale.sumItem))
+    this.config1.number.splice(0, 1, parseInt(parseFloat(sale.sumStore) * parseFloat(sale.abnormalStoreRate) / 100))
+    this.config2.number.splice(0, 1, parseInt(parseFloat(sale.sumSort) * parseFloat(sale.abnormalSortRate) / 100))
+    this.config3.number.splice(0, 1, parseInt(parseFloat(sale.sumItem) * parseFloat(sale.abnormalItem) / 100))
     this.config1 = { ...this.config1 }
     this.config2 = { ...this.config2 }
     this.config3 = { ...this.config3 }

@@ -41,9 +41,9 @@ import priceTopCenter from '@/components/echart/detectPrice/priceTopCenter'
 import price from '@/mainData/price'
 export default {
   mounted () {
-    this.numberData[0].number.number.push(parseInt(price.sumItem))
-    this.numberData[1].number.number.push(parseInt(price.sumSort))
-    this.numberData[2].number.number.push(parseInt(price.sumStore))
+    this.numberData[0].number.number.push(parseInt(parseFloat(price.sumItem) * parseFloat(price.abnormalItem) / 100))
+    this.numberData[1].number.number.push(parseInt(parseFloat(price.sumSort) * parseFloat(price.abnormalSortRate) / 100))
+    this.numberData[2].number.number.push(parseInt(parseFloat(price.sumStore) * parseFloat(price.abnormalStoreRate) / 100))
     for (let i = 0; i < 3; i++) { this.numberData[i].number = { ...this.numberData[i].number } }
   },
   data () {

@@ -1,22 +1,22 @@
 let price = {
-  'sumItem': '77',
-  'sumSort': '89',
+  'sumItem': '9480161',
+  'sumSort': '194',
   'abnormalSortRate': '74.66',
-  'sumStore': '72',
-  'abnormalStoreRate': '100.0',
-  'abnormalItem': '79.5',
+  'sumStore': '112086',
+  'abnormalStoreRate': '2.37',
+  'abnormalItem': '0.14',
   'abnormalSortDetail': [
     {
       'sortname': '母婴用品',
-      'rate': '5.0'
+      'rate': '5.31'
     },
     {
       'sortname': '服装鞋包',
-      'rate': '5.0'
+      'rate': '14.2'
     },
     {
       'sortname': '文化玩乐',
-      'rate': '5.0'
+      'rate': '7.22'
     },
     {
       'sortname': '美妆饰品',
@@ -28,31 +28,27 @@ let price = {
     },
     {
       'sortname': '家居建材',
-      'rate': '10.0'
+      'rate': '4.32'
     },
     {
       'sortname': '百货食品',
-      'rate': '10.0'
+      'rate': '10.46'
     },
     {
       'sortname': '其他',
-      'rate': '20.0'
+      'rate': '14.76'
     },
     {
       'sortname': '运动户外',
-      'rate': '5.0'
+      'rate': '5.15'
     },
     {
       'sortname': '手机数码',
-      'rate': '5.0'
-    },
-    {
-      'sortname': '',
-      'rate': '5.0'
+      'rate': '13.89'
     },
     {
       'sortname': '生活服务',
-      'rate': '5.0'
+      'rate': '13.21'
     }
   ],
   'abnormalDetail': [

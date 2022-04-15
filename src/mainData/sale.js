@@ -1,10 +1,10 @@
 let sale = {
-  'sumItem': '3013',
-  'sumSort': '3029',
-  'abnormalSortRate': '18.25',
-  'sumStore': '399',
-  'abnormalStoreRate': '100.0',
-  'abnormalItem': '32',
+  'sumItem': '9480161',
+  'sumSort': '194',
+  'abnormalSortRate': '72.81',
+  'sumStore': '112086',
+  'abnormalStoreRate': '0.47',
+  'abnormalItem': '0.597',
   'abnormalSortDetail': [
     {
       'sortname': '百货食品',

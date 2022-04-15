@@ -18,6 +18,15 @@ export default {
   watch: {
     item (val) {
       for (let i = 0; i < 4; i++) {
+        val[0].allPrice[i] = Math.round(Math.random() * 100 + 200)
+        val[0].allSale[i] = Math.round(Math.random() * 100 + 200)
+        if (val[0].whichAbnormal === '0') { val[0].allPrice[i] = Math.round(Math.random() * 400 + 50) }
+        if (val[0].whichAbnormal === '1') { val[0].allSale[i] = Math.round(Math.random() * 400 + 50) }
+        if (val[0].whichAbnormal === '01') { val[0].allPrice[i] = Math.round(Math.random() * 400 + 50); val[0].allSale[i] = Math.round(Math.random() * 400 + 50) }
+        val[0].allComments[i] = Math.round(Math.random() * 1800 + 200)
+        val[0].allCollection[i] = Math.round(Math.random() * 1800 + 200)
+      }
+      for (let i = 0; i < 4; i++) {
         this.options.series[2].data.splice(i, 1, parseInt(val[0].allPrice[i]))
         this.options.series[3].data.splice(i, 1, parseInt(val[0].allSale[i]))
         this.options.series[1].data.splice(i, 1, parseInt(val[0].allComments[i]))

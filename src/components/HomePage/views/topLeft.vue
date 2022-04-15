@@ -62,7 +62,7 @@ export default {
   components: {TopLeftChart},
   mounted () {
     this.numberData[1].number.number.splice(0, 1, parseInt(main.sumAbnormalStore))
-    this.numberData[0].number.number.splice(0, 1, parseInt(parseInt(main.sumAbnormalStore) / parseInt(main.abnormalStoreRate)) * 100)
+    this.numberData[0].number.number.splice(0, 1, parseInt(parseFloat(main.sumAbnormalStore) / parseFloat(main.abnormalStoreRate) * 100))
     this.numberData[0].number = { ...this.numberData[0].number }
     this.numberData[1].number = { ...this.numberData[1].number }
     for (let i = 0; i < Object.keys(main.abnormalStore).length; i++) {

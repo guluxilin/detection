@@ -38,9 +38,9 @@ import sale from '@/mainData/sale'
 export default {
   components: {saleTopRight},
   mounted () {
-    this.water.data.push(parseInt(sale.abnormalItem))
-    this.rate[0].tips = parseInt(sale.abnormalStoreRate)
-    this.rate[1].tips = parseInt(sale.abnormalSortRate)
+    this.water.data.push(parseFloat(sale.abnormalItem).toFixed(2))
+    this.rate[0].tips = parseFloat(sale.abnormalStoreRate).toFixed(2)
+    this.rate[1].tips = parseFloat(sale.abnormalSortRate).toFixed(2)
     this.water = { ...this.water }
   },
   data () {

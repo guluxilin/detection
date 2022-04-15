@@ -1,13 +1,13 @@
 let main = {
-  'sumAbnormalItem': '609',
-  'sumItem': '27715',
-  'sumRate': '23.197366047266823',
+  'sumAbnormalItem': '54302',
+  'sumItem': '9480161',
+  'sumRate': '0.3197366047266823',
   'sumPriceRate': '0.054122316435143425',
   'sumSaleRate': '2.1504600396896985',
-  'sumAbnormalSort': '14',
-  'abnormalSortRate': '87.5',
-  'sumAbnormalStore': '198',
-  'abnormalStoreRate': '49.62406015037594',
+  'sumAbnormalSort': '169',
+  'abnormalSortRate': '87.3',
+  'sumAbnormalStore': '8546',
+  'abnormalStoreRate': '7.62406015037594',
   'abnormalDetail': [
     {
       'storeName': '蓝菲轻奢代购',
@@ -149,7 +149,7 @@ let main = {
       'storeName': '晶翁旗舰店',
       'itemDetail': [
         {
-          'whichAbnormal': '0',
+          'whichAbnormal': '01',
           'itemName': '包邮汉斯黑油一擦净去除染发剂的清洁剂染膏彩蜡残留清除美发用品',
           'itemsort': '家用电器',
           'itemId': '647076357697',
@@ -286,7 +286,7 @@ let main = {
       'storeName': 'd[s65134886]',
       'itemDetail': [
         {
-          'whichAbnormal': '1',
+          'whichAbnormal': '0',
           'itemName': '盒装零通电IBM 00AR397 00AR326 900G SAS 10K 6G 2.5 V7000 Gen2',
           'itemsort': '手机数码',
           'itemId': '642842945579',
@@ -326,7 +326,7 @@ let main = {
           ]
         },
         {
-          'whichAbnormal': '1',
+          'whichAbnormal': '0',
           'itemName': '盒装零通电IBM 00W1160 90Y9001 600G SAS 10K 6G 2.5 DS3524存储',
           'itemsort': '手机数码',
           'itemId': '643180606339',
@@ -420,7 +420,7 @@ let main = {
       'storeName': 'd[s109341368]',
       'itemDetail': [
         {
-          'whichAbnormal': '1',
+          'whichAbnormal': '0',
           'itemName': 'Xiaomi Mijia Youpin LEMO Calculator LCD Display Intelligent',
           'itemsort': '手机数码',
           'itemId': '644420058788',
@@ -510,7 +510,7 @@ let main = {
       'storeName': '圣圣大将军',
       'itemDetail': [
         {
-          'whichAbnormal': '1',
+          'whichAbnormal': '0',
           'itemName': '【特价】M.A+ by Maurizio Amadei 经典满十字皮带（深紫/黑）',
           'itemsort': '服装鞋包',
           'itemId': '564779189189',
@@ -550,7 +550,7 @@ let main = {
           ]
         },
         {
-          'whichAbnormal': '1',
+          'whichAbnormal': '0',
           'itemName': '【现货】Werkstatt Munchen M7450 迷你银牌组合纯银项链',
           'itemsort': '美妆饰品',
           'itemId': '45181935807',
@@ -640,7 +640,7 @@ let main = {
           ]
         },
         {
-          'whichAbnormal': '1',
+          'whichAbnormal': '01',
           'itemName': '神经针刺疗法 李圣平编著 江西科学技术出版社',
           'itemsort': '文化玩乐',
           'itemId': '654046782734',
@@ -680,7 +680,7 @@ let main = {
           ]
         },
         {
-          'whichAbnormal': '1',
+          'whichAbnormal': '01',
           'itemName': '色彩风景 王俊 著 吉林美术出版社',
           'itemsort': '文化玩乐',
           'itemId': '653640717393',

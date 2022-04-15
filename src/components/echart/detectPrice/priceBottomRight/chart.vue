@@ -118,7 +118,10 @@ export default {
               color: 'rgba(255,255,255,.8)',
               fontSize: 12
             },
-            data: [6, 7, 8, 9]
+            data: ['Jun',
+              'Jul',
+              'Aug',
+              'Sep']
           },
           // 下方Y轴
           yAxis: {

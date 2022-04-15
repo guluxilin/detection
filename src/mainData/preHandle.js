@@ -4423,6 +4423,6 @@ let preHandle = {
   'sumstore': '280724',
   'sumItem': '14802345',
   'valueabsenceRate': '72.97893002764089',
-  'sortabsenceRate': '4.096134767835772'
+  'sortabsenceRate': '27.096134767835772'
 }
 export default preHandle

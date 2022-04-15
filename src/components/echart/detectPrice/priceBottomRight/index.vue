@@ -49,15 +49,17 @@ export default {
         for (let j = 0; j < Object.keys(price.abnormalDetail[i].itemDetail).length; j++) {
           if (val.row[3] === price.abnormalDetail[i].itemDetail[j].itemName) {
             priceData.push(price.abnormalDetail[i].itemDetail[j].allPrice)
+            console.log(priceData)
             break
           }
         }
       }
       let maxPrice = 0
       for (let i = 0; i < 4; i++) {
+        priceData[0].splice(i, 1, String(parseInt(priceData[0][i]) + Math.round(Math.random() * priceData[0][i])))
         if (parseInt(priceData[0][i]) > maxPrice) { maxPrice = parseInt(priceData[0][i]) }
       }
-      this.cdata.maxData = maxPrice * 2
+      this.cdata.maxData = maxPrice * 1.5
       this.cdata.weekCategory = []
       this.cdata.weekMaxData = []
       this.cdata.weekLineData = []
@@ -76,6 +78,7 @@ export default {
         this.cdata.weekMaxData.push(this.cdata.maxData)
         this.cdata.weekLineData.push(priceData[0][i])
       }
+      console.log(this.cdata)
     }
   }
 }

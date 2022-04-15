@@ -89,7 +89,7 @@ export default {
         ],
         series: [
           {
-            name: '店铺得分',
+            name: '异常得分',
             type: 'line',
             data: []
           }
