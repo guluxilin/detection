@@ -13,13 +13,13 @@ let preHandle = {
         '29.99'
       ],
       'FavNum': [
-        '0',
+        '2',
         0,
         0,
         0
       ],
       'EvaNum': [
-        '0',
+        '1',
         0,
         0,
         0
@@ -34,7 +34,7 @@ let preHandle = {
         '48'
       ],
       'FavNumfilled': [
-        '48',
+        '37',
         '48',
         '48',
         '48'
@@ -53,13 +53,13 @@ let preHandle = {
         '19.9'
       ],
       'FavNum': [
-        '0',
+        '5',
         0,
         0,
         0
       ],
       'EvaNum': [
-        '0',
+        '2',
         0,
         0,
         0
@@ -74,7 +74,7 @@ let preHandle = {
         '48'
       ],
       'FavNumfilled': [
-        '48',
+        '63',
         '48',
         '48',
         '48'
@@ -130,7 +130,7 @@ let preHandle = {
         '40.0'
       ],
       'FavNumfilled': [
-        '40.0',
+        '27.0',
         '40.0',
         '40.0',
         '40.0'
@@ -155,13 +155,13 @@ let preHandle = {
         '3.6'
       ],
       'FavNum': [
-        '0',
+        '12',
         '0',
         '0',
         '0'
       ],
       'EvaNum': [
-        '0',
+        '5',
         '0',
         '0',
         '0'
@@ -170,7 +170,7 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '40.0',
+        '26.0',
         '40.0',
         '40.0',
         '40.0'
@@ -210,13 +210,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '40.0',
+        '32.0',
         '40.0',
         '40.0',
         '40.0'
       ],
       'FavNumfilled': [
-        '40.0',
+        '67.0',
         '40.0',
         '40.0',
         '40.0'
@@ -250,13 +250,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '40.0',
+        '24,0',
         '40.0',
         '40.0',
         '40.0'
       ],
       'FavNumfilled': [
-        '40.0',
+        '36.0',
         '40.0',
         '40.0',
         '40.0'
@@ -290,13 +290,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '40.0',
+        '58.0',
         '40.0',
         '40.0',
         '40.0'
       ],
       'FavNumfilled': [
-        '40.0',
+        '19.0',
         '40.0',
         '40.0',
         '40.0'
@@ -330,13 +330,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '40.0',
+        '10.0',
         '40.0',
         '40.0',
         '40.0'
       ],
       'FavNumfilled': [
-        '40.0',
+        '17.0',
         '40.0',
         '40.0',
         '40.0'
@@ -392,7 +392,7 @@ let preHandle = {
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '7.0',
         '4.0',
         '4.0',
         '4.0'
@@ -426,7 +426,7 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '7.0',
         '4.0',
         '4.0',
         '4.0'
@@ -468,13 +468,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '8.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '13.0',
         '4.0',
         '4.0',
         '4.0'
@@ -508,13 +508,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '17.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '20.0',
         '4.0',
         '4.0',
         '4.0'
@@ -548,13 +548,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '31.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '20.0',
         '4.0',
         '4.0',
         '4.0'
@@ -588,13 +588,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '24.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '13.0',
         '4.0',
         '4.0',
         '4.0'
@@ -628,13 +628,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '9.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '21.0',
         '4.0',
         '4.0',
         '4.0'
@@ -674,13 +674,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '18.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '23.0',
         '4.0',
         '4.0',
         '4.0'
@@ -730,13 +730,13 @@ let preHandle = {
         '2.0'
       ],
       'EvaNumfilled': [
-        '2.0',
+        '12.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '26.0',
         '2.0',
         '2.0',
         '2.0'
@@ -770,13 +770,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '25.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '11.0',
         '2.0',
         '2.0',
         '2.0'
@@ -816,13 +816,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '37.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '16.0',
         '2.0',
         '2.0',
         '2.0'
@@ -856,13 +856,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '35.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '21.0',
         '2.0',
         '2.0',
         '2.0'
@@ -902,13 +902,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '32.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '17.0',
         '2.0',
         '2.0',
         '2.0'
@@ -948,13 +948,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '22.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '36.0',
         '2.0',
         '2.0',
         '2.0'
@@ -1010,7 +1010,7 @@ let preHandle = {
         '3.0'
       ],
       'FavNumfilled': [
-        '3.0',
+        '14.0',
         '3.0',
         '3.0',
         '3.0'
@@ -1050,13 +1050,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '3.0',
+        '17.0',
         '3.0',
         '3.0',
         '3.0'
       ],
       'FavNumfilled': [
-        '3.0',
+        '1.0',
         '3.0',
         '3.0',
         '3.0'
@@ -1106,13 +1106,13 @@ let preHandle = {
         '16.5'
       ],
       'EvaNumfilled': [
-        '2.0',
+        '35.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '72.0',
         '2.0',
         '2.0',
         '2.0'
@@ -1168,7 +1168,7 @@ let preHandle = {
         '1.0'
       ],
       'FavNumfilled': [
-        '1',
+        '0',
         '1',
         '1',
         '1'
@@ -1208,13 +1208,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '21',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '3',
         '1',
         '1',
         '1'
@@ -1248,13 +1248,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '43',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '21',
         '1',
         '1',
         '1'
@@ -1286,7 +1286,7 @@ let preHandle = {
       'salefilled': [],
       'EvaNumfilled': [],
       'FavNumfilled': [
-        '1',
+        '13',
         '1',
         '1',
         '1'
@@ -1326,13 +1326,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '21',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '17',
         '1',
         '1',
         '1'
@@ -1368,13 +1368,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '18',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '19',
         '1',
         '1',
         '1'
@@ -1410,13 +1410,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '43',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '5',
         '1',
         '1',
         '1'
@@ -1454,13 +1454,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '11',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '27',
         '1',
         '1',
         '1'
@@ -1494,13 +1494,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '0',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '22',
         '1',
         '1',
         '1'
@@ -1550,13 +1550,13 @@ let preHandle = {
         '2.0'
       ],
       'EvaNumfilled': [
-        '2.0',
+        '21.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '25.0',
         '2.0',
         '2.0',
         '2.0'
@@ -1612,7 +1612,7 @@ let preHandle = {
         '6.0'
       ],
       'FavNumfilled': [
-        '6.0',
+        '38.0',
         '6.0',
         '6.0',
         '6.0'
@@ -1668,7 +1668,7 @@ let preHandle = {
         '1.0'
       ],
       'FavNumfilled': [
-        '1.0',
+        '6.0',
         '1.0',
         '1.0',
         '1.0'
@@ -1708,13 +1708,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1.0',
+        '3.0',
         '1.0',
         '1.0',
         '1.0'
       ],
       'FavNumfilled': [
-        '1.0',
+        '16.0',
         '1.0',
         '1.0',
         '1.0'
@@ -1748,13 +1748,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1.0',
+        '11.0',
         '1.0',
         '1.0',
         '1.0'
       ],
       'FavNumfilled': [
-        '1.0',
+        '31.0',
         '1.0',
         '1.0',
         '1.0'
@@ -1788,13 +1788,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1.0',
+        '2.0',
         '1.0',
         '1.0',
         '1.0'
       ],
       'FavNumfilled': [
-        '1.0',
+        '7.0',
         '1.0',
         '1.0',
         '1.0'
@@ -1844,13 +1844,13 @@ let preHandle = {
         '20.0'
       ],
       'EvaNumfilled': [
-        '20.0',
+        '23.0',
         '20.0',
         '20.0',
         '20.0'
       ],
       'FavNumfilled': [
-        '20.0',
+        '27.0',
         '20.0',
         '20.0',
         '20.0'
@@ -1890,13 +1890,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '20.0',
+        '31.0',
         '20.0',
         '20.0',
         '20.0'
       ],
       'FavNumfilled': [
-        '20.0',
+        '4.0',
         '20.0',
         '20.0',
         '20.0'
@@ -1952,7 +1952,7 @@ let preHandle = {
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '13.0',
         '5.0',
         '5.0',
         '5.0'
@@ -1986,13 +1986,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '57.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '31.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2029,12 +2029,14 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '29.0',
         '5.0',
         '5.0',
         '5.0'
       ],
-      'FavNumfilled': []
+      'FavNumfilled': [
+        '21.0'
+      ]
     },
     {
       'storeName': '澄宇玩具\n',
@@ -2086,7 +2088,7 @@ let preHandle = {
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '7.0',
         '4.0',
         '4.0',
         '4.0'
@@ -2120,13 +2122,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '14.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
-        '4.0',
+        '32.0',
         '4.0',
         '4.0',
         '4.0'
@@ -2156,46 +2158,8 @@ let preHandle = {
       'sortfilled': '',
       'pricefilled': [],
       'salefilled': [],
-      'EvaNumfilled': [],
-      'FavNumfilled': [
-        '4.0',
-        '4.0',
-        '4.0',
-        '4.0'
-      ]
-    },
-    {
-      'storeName': ' 青葡萄淑女内衣店\n',
-      'itemId': '654084165769',
-      'sort': '',
-      'itemName': ' 内衣女夏季薄款三角杯康后日系bra无钢圈防下垂白色蕾丝文胸套装',
-      'itemSaleVolum': [
-        '1'
-      ],
-      'itemSaleAmount': '27.65',
-      'allPrices': [
-        '27.65'
-      ],
-      'FavNum': [
-        '0',
-        0,
-        0,
-        0
-      ],
-      'EvaNum': [
-        '0',
-        0,
-        0,
-        0
-      ],
-      'sortfilled': '服装鞋包',
-      'pricefilled': [],
-      'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
-        '4.0',
-        '4.0',
-        '4.0'
+        '27.0'
       ],
       'FavNumfilled': [
         '4.0',
@@ -2232,13 +2196,53 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '4.0',
+        '1.0',
         '4.0',
         '4.0',
         '4.0'
       ],
       'FavNumfilled': [
+        '26.0',
         '4.0',
+        '4.0',
+        '4.0'
+      ]
+    },
+    {
+      'storeName': ' 青葡萄淑女内衣店\n',
+      'itemId': '654084165769',
+      'sort': '',
+      'itemName': ' 内衣女夏季薄款三角杯康后日系bra无钢圈防下垂白色蕾丝文胸套装',
+      'itemSaleVolum': [
+        '1'
+      ],
+      'itemSaleAmount': '27.65',
+      'allPrices': [
+        '27.65'
+      ],
+      'FavNum': [
+        '0',
+        0,
+        0,
+        0
+      ],
+      'EvaNum': [
+        '0',
+        0,
+        0,
+        0
+      ],
+      'sortfilled': '服装鞋包',
+      'pricefilled': [],
+      'salefilled': [],
+      'EvaNumfilled': [
+        '28.0',
+        '4.0',
+        '4.0',
+        '4.0'
+      ],
+      'FavNumfilled': [
+        '37.0',
         '4.0',
         '4.0',
         '4.0'
@@ -2288,13 +2292,13 @@ let preHandle = {
         '5.0'
       ],
       'EvaNumfilled': [
-        '5.0',
+        '51.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '28.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2328,13 +2332,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '17.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '32.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2368,13 +2372,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '36.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '23.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2408,13 +2412,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '19.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '26.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2448,13 +2452,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '31.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '46.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2490,13 +2494,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '72.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '14.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2552,7 +2556,7 @@ let preHandle = {
         '12.0'
       ],
       'FavNumfilled': [
-        '12.0',
+        '42.0',
         '12.0',
         '12.0',
         '12.0'
@@ -2588,13 +2592,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '12.0',
+        '95.0',
         '12.0',
         '12.0',
         '12.0'
       ],
       'FavNumfilled': [
-        '12.0',
+        '53.0',
         '12.0',
         '12.0',
         '12.0'
@@ -2644,7 +2648,7 @@ let preHandle = {
         '1.0'
       ],
       'EvaNumfilled': [
-        '14.0',
+        '13',
         '13.999999999999998',
         '14.0',
         '14.0'
@@ -2700,13 +2704,13 @@ let preHandle = {
         '5.0'
       ],
       'EvaNumfilled': [
-        '5.0',
+        '205.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '137.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2737,12 +2741,14 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '32.0',
         '5.0',
         '5.0',
         '5.0'
       ],
-      'FavNumfilled': []
+      'FavNumfilled': [
+        '69.0'
+      ]
     },
     {
       'storeName': '丹妮生活馆\n',
@@ -2772,13 +2778,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '55.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '34.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2812,13 +2818,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '73.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '103.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2852,13 +2858,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '124.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '36.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2898,13 +2904,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '74.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '132.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2944,13 +2950,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '63.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '47.0',
         '5.0',
         '5.0',
         '5.0'
@@ -2984,13 +2990,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '5.0',
+        '32.0',
         '5.0',
         '5.0',
         '5.0'
       ],
       'FavNumfilled': [
-        '5.0',
+        '27.0',
         '5.0',
         '5.0',
         '5.0'
@@ -3040,13 +3046,13 @@ let preHandle = {
         '2.0'
       ],
       'EvaNumfilled': [
-        '2.0',
+        '64.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '131.0',
         '2.0',
         '2.0',
         '2.0'
@@ -3086,13 +3092,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '61.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '12.0',
         '2.0',
         '2.0',
         '2.0'
@@ -3128,13 +3134,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '74.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '36.0',
         '2.0',
         '2.0',
         '2.0'
@@ -3168,13 +3174,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '34.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '87.0',
         '2.0',
         '2.0',
         '2.0'
@@ -3208,13 +3214,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '72.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '37.0',
         '2.0',
         '2.0',
         '2.0'
@@ -3248,13 +3254,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '37.0',
         '2.0',
         '2.0',
         '2.0'
       ],
       'FavNumfilled': [
-        '2.0',
+        '18.0',
         '2.0',
         '2.0',
         '2.0'
@@ -3288,7 +3294,7 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '2.0',
+        '37.0',
         '2.0',
         '2.0',
         '2.0'
@@ -3350,7 +3356,7 @@ let preHandle = {
         '1.0'
       ],
       'FavNumfilled': [
-        '1',
+        '8',
         '1',
         '1',
         '1'
@@ -3384,13 +3390,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '35',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '73',
         '1',
         '1',
         '1'
@@ -3424,13 +3430,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '91',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '54',
         '1',
         '1',
         '1'
@@ -3464,13 +3470,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '28',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '63',
         '1',
         '1',
         '1'
@@ -3504,13 +3510,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '52',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '73',
         '1',
         '1',
         '1'
@@ -3544,13 +3550,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '36',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '45',
         '1',
         '1',
         '1'
@@ -3584,13 +3590,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '2',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '26',
         '1',
         '1',
         '1'
@@ -3624,13 +3630,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '45',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '7',
         '1',
         '1',
         '1'
@@ -3664,13 +3670,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '56',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '81',
         '1',
         '1',
         '1'
@@ -3704,13 +3710,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '52',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '45',
         '1',
         '1',
         '1'
@@ -3744,13 +3750,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '47',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '75',
         '1',
         '1',
         '1'
@@ -3784,13 +3790,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '39',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '21',
         '1',
         '1',
         '1'
@@ -3824,13 +3830,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '12',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '4',
         '1',
         '1',
         '1'
@@ -3861,12 +3867,14 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '52',
         '1',
         '1',
         '1'
       ],
-      'FavNumfilled': []
+      'FavNumfilled': [
+        '31'
+      ]
     },
     {
       'storeName': '番茄 雅韵堂\n',
@@ -3896,13 +3904,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '49',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '10',
         '1',
         '1',
         '1'
@@ -3936,13 +3944,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '73',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '25',
         '1',
         '1',
         '1'
@@ -3982,13 +3990,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '43',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '26',
         '1',
         '1',
         '1'
@@ -4028,13 +4036,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '76',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '25',
         '1',
         '1',
         '1'
@@ -4068,13 +4076,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '54',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '27',
         '1',
         '1',
         '1'
@@ -4108,13 +4116,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '82',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '57',
         '1',
         '1',
         '1'
@@ -4148,13 +4156,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '17',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '36',
         '1',
         '1',
         '1'
@@ -4188,13 +4196,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '84',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '28',
         '1',
         '1',
         '1'
@@ -4228,13 +4236,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '63',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '46',
         '1',
         '1',
         '1'
@@ -4268,13 +4276,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '1',
+        '94',
         '1',
         '1',
         '1'
       ],
       'FavNumfilled': [
-        '1',
+        '125',
         '1',
         '1',
         '1'
@@ -4330,7 +4338,7 @@ let preHandle = {
         '167.0'
       ],
       'FavNumfilled': [
-        '167.0',
+        '45.0',
         '167.0',
         '167.0',
         '167.0'
@@ -4370,7 +4378,7 @@ let preHandle = {
         '167.0'
       ],
       'FavNumfilled': [
-        '167.0',
+        '234.0',
         '167.0',
         '167.0',
         '167.0'
@@ -4406,13 +4414,13 @@ let preHandle = {
       'pricefilled': [],
       'salefilled': [],
       'EvaNumfilled': [
-        '167.0',
+        '123.0',
         '167.0',
         '167.0',
         '167.0'
       ],
       'FavNumfilled': [
-        '167.0',
+        '174.0',
         '167.0',
         '167.0',
         '167.0'

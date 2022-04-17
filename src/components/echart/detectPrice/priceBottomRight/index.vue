@@ -56,7 +56,7 @@ export default {
       }
       let maxPrice = 0
       for (let i = 0; i < 4; i++) {
-        priceData[0].splice(i, 1, String(parseInt(priceData[0][i]) + Math.round(Math.random() * priceData[0][i])))
+        priceData[0].splice(i, 1, String(parseInt(priceData[0][i])))
         if (parseInt(priceData[0][i]) > maxPrice) { maxPrice = parseInt(priceData[0][i]) }
       }
       this.cdata.maxData = maxPrice * 1.5

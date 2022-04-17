@@ -70,8 +70,8 @@ export default {
       for (let i = 0; i < Object.keys(this.preHandle.absence).length; i++) {
         if (val.row[3] === this.preHandle.absence[i].itemName) {
           this.tableDetail = this.preHandle.absence[i]
-          this.numberData[2].number = parseInt(this.tableDetail.FavNumfilled[0].split('.')[0]) + Math.round(Math.random() * 100 + 50)
-          this.numberData[3].number = parseInt(this.tableDetail.EvaNumfilled[0].split('.')[0]) + Math.round(Math.random() * 100 + 50)
+          this.numberData[2].number = parseInt(this.tableDetail.FavNumfilled[0].split('.')[0])
+          this.numberData[3].number = parseInt(this.tableDetail.EvaNumfilled[0].split('.')[0])
           this.dataNum.splice(0, 1, parseFloat(this.tableDetail.itemSaleAmount))
           this.dataNum.splice(1, 1, parseFloat(this.tableDetail.itemSaleVolum[0]))
           this.dataNum.splice(2, 1, parseFloat(this.tableDetail.allPrices[0]))

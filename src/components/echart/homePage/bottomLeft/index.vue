@@ -15,12 +15,6 @@ export default {
       console.log('chart')
       console.log(val[0])
       for (let i = 0; i < 4; i++) {
-        val[0].allPrice[i] = Math.round(Math.random() * 100 + 50)
-        val[0].allSale[i] = Math.round(Math.random() * 200 + 30)
-        val[0].allComments[i] = Math.round(Math.random() * 1800 + 200)
-        val[0].allCollection[i] = Math.round(Math.random() * 1800 + 200)
-      }
-      for (let i = 0; i < 4; i++) {
         this.cdata.PriceData.splice(i, 1, parseInt(val[0].allPrice[i]))
         this.cdata.SaleData.splice(i, 1, parseInt(val[0].allSale[i]))
         this.cdata.CommentData.splice(i, 1, parseInt(val[0].allComments[i]))
@@ -52,7 +46,6 @@ export default {
   mounted () {
   },
   methods: {
-    // 根据自己的业务情况修改
     setData () {
       for (let i = 0; i < this.cdata.barData.length - 1; i++) {
         let rate = this.cdata.barData[i] / this.cdata.lineData[i]
